@@ -6,7 +6,7 @@ Each student can enroll in multiple courses. A student’s enrollment must track
 Students can also submit course reviews after completing a course, which include a rating (1–5), optional written feedback, and a submission date
 
 Instructors may teach more than one course, and each course is taught by exactly one instructor. 
-Courses have attributes such as a title, description, category (e.g., Data Science, Design, Marketing), duration in hours, and level (e.g., Beginner, Intermediate, Advanced
+Courses have attributes such as a title, description, category (e.g., Data Science, Design, Marketing), duration in hours, and level (e.g., Beginner, Intermediate, Advanced)
 
 The platform tracks lessons inside each course. Each lesson belongs to one course and includes a title, type (video, reading, quiz), and estimated duration.
 
