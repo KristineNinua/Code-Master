@@ -10,7 +10,6 @@ Courses have attributes such as a title, description, category (e.g., Data Scien
 
 The platform tracks lessons inside each course. Each lesson belongs to one course and includes a title, type (video, reading, quiz), and estimated duration.
 
-The company also wants to store monthly subscription data for each student, tracking the start and end dates, payment amount, and subscription status. 
-Students may cancel and re-subscribe, so the system must support multiple subscriptions per student.
+The company also wants to store subscription data for each student, tracking the start and end dates, payment amount, and subscription status. 
 
 Finally, the platform wants to track instructor payouts, including payment amount, date, and associated course. Each payout is linked to both an instructor and a course.
