@@ -18,7 +18,8 @@ CREATE TABLE course (
     course_id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(50),
     description TEXT, 
-    category ENUM('Data Science', 'Design', 'Marketing', 'Data Analysis', 'Software Engineering', 'Finance Analysis', 'Risk Analysis'),
+    category ENUM('Data Science', 'Design', 'Marketing', 'Data Analysis', 'Software Engineering', 
+    'Finance Analysis', 'Risk Analysis'),
     duration_in_hours INT,
     level ENUM('Beginner', 'Intermediate', 'Advanced'),
     instructor_id INT NULL,
@@ -33,7 +34,7 @@ CREATE TABLE subscription (
     start_date DATE,
     end_date DATE,
     payment_amount DECIMAL(8,2),
-    subscription_status VARCHAR(20),
+    subscription_status ENUM('Active', 'Inactive', 'Cancelled'),
     student_id INT,
     FOREIGN KEY(student_id) REFERENCES student(student_id)
     ON DELETE CASCADE
@@ -42,7 +43,7 @@ CREATE TABLE subscription (
 -- Creating lesson table
 CREATE TABLE lesson (
     lesson_id INT PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(100) ,
+    title VARCHAR(100),
     type ENUM('Video', 'Reading', 'Quiz'),
     estimated_duration INT,
     course_id INT,
@@ -79,3 +80,4 @@ CREATE TABLE enrollment (
     FOREIGN KEY(course_id) REFERENCES course(course_id)
     ON DELETE CASCADE
 );
+
