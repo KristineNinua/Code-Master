@@ -1,0 +1,15 @@
+entity - Student, Instructor, Course, Lesson, Subscription, Payout, Enrollment
+
+attribute - student(student_id, name, email)
+attribute - instructor(instructor_id, name, expertise)
+attribute - course(course_id, title, description, category('data science', 'design', 'marketing'...), duration_in_hours, level('beginner', 'intermediate', 'advanced'), instructor_id)
+attribute - lesson(lesson_id, title, type('video', 'reading', 'quiz'), estimated_duration, course_id)
+attribute - subscription(subscription_id, start_date, end_date, payment_amount, subscription_status('active', 'inactive', 'cancelled'), student_id)
+attribute - payout(payout_id, payment_amount, payment_date, instructor_id, course_id)
+attribute - enrollment(student_id, course_id, enrollment_date, status('active', 'completed', 'dropped'), final_grade, derived attributes - review_rating(1-5), review_feedback, review_submission_date)
+
+relationship - Enroll student(N) -partial participation, course(M) =total participation
+relationship - Teach instructor(1) =total participation, course(N) =total participation
+relationship - Subscribe student(1) -partial participation, subscription(N) =total participation
+relationship - Payout instructor(N) =total participation, course(M) =total participation
+
