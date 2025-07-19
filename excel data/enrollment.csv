@@ -1,0 +1,25 @@
+student_id,course_id,enrollment_date,status,final_grade,review_rating,review_feedback,review_submission_date
+300,216,2018-10-02,Completed,97.5,5,Loved the emphasis on real-world UI/UX challenges — super engaging!,2018-01-15
+300,217,2023-11-22,Completed,87.5,4,Great insights into digital campaigns — helped me run my first ad successfully.,2024-02-24
+301,216,2024-01-21,Active,"","","",""
+302,216,2024-03-15,Dropped,"",2,"Wish there was more content on mobile-first design, but otherwise excellent.",2024-05-15
+303,216,2025-03-05,Active,"","","",""
+304,220,2022-11-06,Completed,94.5,5,Clear explanation of financial ratios and their significance — super useful!,2023-03-24
+304,221,2018-05-30,Completed,84.7,4,Helped me understand both qualitative and quantitative risk — great balance.,2018-09-20
+305,221,2018-07-02,Dropped,"",3,"Could benefit from more industry-specific examples, but overall solid content.",2018-09-30
+306,221,2023-03-17,Completed,65.3,3,"",2023-08-07
+307,220,2023-09-02,Completed,45.5,"","",""
+308,220,2023-10-19,Completed,92.1,5,"",2024-03-17
+309,215,2025-06-02,Active,"","","",""
+309,218,2023-03-14,Dropped,"","","",""
+310,215,2025-08-27,Active,"","","",""
+311,218,2024-10-09,Completed,98.9,5,The section on exploratory data analysis completely changed how I look at raw data.,2025-04-08
+312,218,2024-01-25,Active,"","","",""
+313,215,2024-09-18,Completed,79.5,4,"Some parts were a bit advanced for beginners, but overall very rewarding.",2025-03-01
+313,218,2023-05-07,Dropped,"",3,"Could use more visual examples, but the coding walkthroughs were excellent.",2023-08-14
+314,215,2025-02-03,Active,"","","",""
+315,219,2023-08-01,Dropped,"",1,Explanations were rushed and lacked depth; I struggled to follow along with the projects.,2023-11-09
+316,219,2018-10-04,Completed,77.3,5,A must-take for anyone learning version control and clean code practices.,2019-02-13
+317,219,2022-01-30,Completed,64.3,5,The API development section was practical and easy to follow.,2022-05-16
+318,219,2018-04-15,Completed,86.4,5,Excellent course for understanding the software development lifecycle.,2018-08-05
+319,219,2023-09-20,Dropped,"",2,The course felt outdated — many tools and practices mentioned are no longer commonly used.,2023-11-28
